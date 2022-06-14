@@ -1,0 +1,28 @@
+body{
+    background-color: #FFC898;
+    text-align: center;
+    font-style: oblique;
+}
+
+#wrap{
+    
+    border-style: dashed;
+    border-width: 5px;
+    background-color: #ffff;  
+    margin: 10px 250px;  
+}
+
+h1
+{
+    border-style: none none dashed none;
+    border-width: 5px;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+li{
+    list-style: none;
+}
+
+.bold{
+    font-size: 1.5em;
+}
