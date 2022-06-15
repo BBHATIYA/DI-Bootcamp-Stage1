@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Navbar Section */
+
+.navbar{
+    background-color: #191919;
+    padding: 1%;
+}
+
+.nav-box{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.nav-items{
+    list-style: none;
+    margin: 0 1%;
+    font-family: 'Merriweather', serif;
+}
+
+nav a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* Image Section */
+
+.home-page, .moreinfo-page{
+background-color: #000000;
+}
+
+.home{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    
+}
+
+.title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+}
+
+.hline,.name{
+color: #ffff;
+padding: 20px;
+font-size: 1.7em;
+font-weight: bold;
+font-family: 'Merriweather', serif;
+}
+
+/* Biography page */
+
+#bio-page{
+    display: flex;
+    flex-direction: column;
+    background-color: #000000;
+    padding: 15px;
+
+}
+
+.bio-1, .bio-2, .bio-3, .bio-4{
+    padding: 2%;
+    margin: 20px 0;
+    background-color: #191919;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5;
+}
+
+.news-report{
+    float: right; 
+    height: 280px;   
+}
+.p-title{
+    clear: right;
+    font-size: 1.5em;
+}
+
+/* More Info Page */
+
+.info-page{
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    }
+
+.events, .achievement, .contact{
+    margin: 20px 0;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5;
+    padding: 2%;
+    background-color: #191919;
+    color: #ffffff;
+
+}
+
+.contact{
+    display: flex;
+    justify-content: center;
+    font-family: 'Merriweather', serif;
+    font-size: 1.5em;
+}
+
+@media only screen and (max-width: 900px) {
+    .events, .achievement {
+        padding: 6%;
+    }
+}
